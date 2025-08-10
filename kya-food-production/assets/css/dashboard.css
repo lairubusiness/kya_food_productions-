@@ -1,0 +1,378 @@
+/* KYA Food Production - Dashboard Simple Styles with Proper Text Contrast */
+
+/* Dashboard Layout */
+.dashboard-container {
+    padding: 15px;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.dashboard-header {
+    background-color: #2d5016;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.dashboard-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.dashboard-subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 0;
+    color: #e9ecef;
+}
+
+/* Simple Statistics Cards with Dark Green Background */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.stats-card {
+    background: #2d5016;
+    border: 1px solid #4a7c2a;
+    border-radius: 5px;
+    padding: 20px;
+    border-left: 4px solid #4a7c2a;
+    color: #ffffff;
+}
+
+.stats-card.success {
+    background-color: #28a745;
+    border-left-color: #20c997;
+    color: #ffffff;
+}
+
+.stats-card.warning {
+    background-color: #ffc107;
+    border-left-color: #ffca2c;
+    color: #212529;
+}
+
+.stats-card.danger {
+    background-color: #dc3545;
+    border-left-color: #e55353;
+    color: #ffffff;
+}
+
+.stats-card.info {
+    background-color: #17a2b8;
+    border-left-color: #20c0f3;
+    color: #ffffff;
+}
+
+.stats-number {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: inherit;
+    margin-bottom: 5px;
+}
+
+.stats-label {
+    font-size: 0.9rem;
+    color: inherit;
+    margin-bottom: 3px;
+    opacity: 0.9;
+}
+
+.stats-sublabel {
+    font-size: 0.8rem;
+    color: inherit;
+    opacity: 0.8;
+}
+
+.stats-icon {
+    float: right;
+    font-size: 1.5rem;
+    color: inherit;
+    opacity: 0.3;
+}
+
+/* Simple Chart Container */
+.chart-container {
+    background: #2d5016;
+    border: 1px solid #4a7c2a;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.chart-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* Simple Table */
+.dashboard-table {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    color: #212529;
+}
+
+.dashboard-table .table thead th {
+    background-color: #2d5016;
+    border-bottom: 1px solid #4a7c2a;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.dashboard-table .table tbody td {
+    color: #212529;
+}
+
+.dashboard-table .table tbody tr:hover {
+    background-color: rgba(45, 80, 22, 0.05);
+}
+
+/* Simple Action Buttons */
+.action-buttons {
+    margin-bottom: 20px;
+}
+
+.action-buttons .btn {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+/* Simple Progress Bars */
+.progress {
+    height: 8px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.progress-bar {
+    border-radius: 4px;
+}
+
+/* Activity Timeline with Dark Green Background */
+.activity-timeline {
+    background: #2d5016;
+    border: 1px solid #4a7c2a;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.timeline-item {
+    border-left: 2px solid #4a7c2a;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.timeline-time {
+    font-size: 0.875rem;
+    color: #e9ecef;
+    margin-bottom: 5px;
+}
+
+.timeline-title {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.timeline-description {
+    color: #e9ecef;
+    font-size: 0.9rem;
+}
+
+/* Quick Actions with Dark Green Background */
+.quick-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.quick-action-card {
+    background: #2d5016;
+    border: 1px solid #4a7c2a;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.quick-action-card:hover {
+    background-color: #4a7c2a;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.quick-action-icon {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.quick-action-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.quick-action-description {
+    font-size: 0.875rem;
+    color: #e9ecef;
+}
+
+/* Notification Panel with Dark Green Background */
+.notification-panel {
+    background: #2d5016;
+    border: 1px solid #4a7c2a;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.notification-header {
+    background: #1a3009;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-bottom: 1px solid #4a7c2a;
+}
+
+.notification-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.notification-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #4a7c2a;
+    color: #ffffff;
+}
+
+.notification-item:hover {
+    background-color: #4a7c2a;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
+
+.notification-item.unread {
+    background-color: #4a7c2a;
+    border-left: 3px solid #ffffff;
+}
+
+.notification-title {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.notification-message {
+    color: #e9ecef;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.notification-time {
+    font-size: 0.8rem;
+    color: #e9ecef;
+}
+
+/* Health Status Indicators */
+.health-indicator {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #2d5016;
+    color: #ffffff;
+}
+
+.health-indicator:last-child {
+    margin-bottom: 0;
+}
+
+.health-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.health-icon.healthy {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.health-icon.warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.health-icon.critical {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.health-details h6 {
+    margin: 0 0 5px 0;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.health-details p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #e9ecef;
+}
+
+/* Simple Responsive */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 10px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .stats-card {
+        padding: 15px;
+    }
+    
+    .stats-number {
+        font-size: 1.5rem;
+    }
+    
+    .chart-container {
+        padding: 15px;
+    }
+    
+    .quick-actions {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .activity-timeline {
+        padding: 15px;
+    }
+}
